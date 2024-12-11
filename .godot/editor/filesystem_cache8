@@ -1,0 +1,27 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1733910852
+export_presets.cfg::TextFile::-1::1733910407::0::1::::<><>::
+::res://assents/::1733907100
+icon.png::CompressedTexture2D::3814029361701091327::1733907076::1733907100::1::::<><>::
+::res://assents/tileMap/::1733900208
+backGround.jpg::CompressedTexture2D::3943437203075736802::1733887890::1733887916::1::::<><>::
+icon.svg::CompressedTexture2D::5408823481642566509::1733839386::1733898342::1::::<><>::
+Jeff_the_Killer.png::CompressedTexture2D::4227078906190239689::1733899628::1733899631::1::::<><>::
+Tileset.png::CompressedTexture2D::6923387016559769585::1733889828::1733889828::1::::<><>::
+Tile_15.png::CompressedTexture2D::4253068109550776900::1583485969::1733841490::1::::<><>::
+::res://audio/::1733905743
+Scary Woman Screaming  Sound Effect HD.mp3::AudioStreamMP3::4661161864898990900::1733900196::1733905743::1::::<><>::
+::res://scenes/::1733910354
+MainMenu.tscn::PackedScene::5573255832644881602::1733910354::0::1::::<><>::uid://bwgh3m11mj5is::::res://assents/tileMap/backGround.jpg<>res://scripts/btn_play.gd<>res://scripts/by_profile.gd<>res://scripts/btn_quit.gd
+playGame2.tscn::PackedScene::396488752850133094::1733910354::0::1::::<><>::uid://bwgh3m11mj5is::::res://assents/tileMap/backGround.jpg<>res://scripts/player.gd<>uid://cjccsdtr2iain::::res://assents/tileMap/icon.svg<>uid://c5v0f4ttmxc7r::::res://assents/tileMap/Tileset.png<>res://scripts/SceneChanger3.gd
+playGame3.tscn::PackedScene::7330465765187747977::1733910354::0::1::::<><>::uid://bwgh3m11mj5is::::res://assents/tileMap/backGround.jpg<>res://scripts/player.gd<>uid://cjccsdtr2iain::::res://assents/tileMap/icon.svg<>uid://c5v0f4ttmxc7r::::res://assents/tileMap/Tileset.png<>res://scripts/hu_ma.gd<>uid://b7n5wjcuvqmm3::::res://audio/Scary Woman Screaming  Sound Effect HD.mp3<>uid://b1hvmwbek8mfh::::res://assents/tileMap/Jeff_the_Killer.png
+playGame.tscn::PackedScene::5743296436337861996::1733910354::0::1::::<><>::res://scripts/play_game.gd<>uid://bwgh3m11mj5is::::res://assents/tileMap/backGround.jpg<>uid://cjccsdtr2iain::::res://assents/tileMap/icon.svg<>res://scripts/player.gd<>uid://c5v0f4ttmxc7r::::res://assents/tileMap/Tileset.png<>res://scripts/SceneChanger2.gd
+::res://scripts/::1733906520
+btn_play.gd::GDScript::-1::1733904964::0::1::::<>Button<>::
+btn_quit.gd::GDScript::-1::1733905075::0::1::::<>Button<>::
+by_profile.gd::GDScript::-1::1733910331::0::1::::<>Button<>::
+hu_ma.gd::GDScript::-1::1733903755::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1733903599::0::1::::<>CharacterBody2D<>::
+play_game.gd::GDScript::-1::1733903598::0::1::::<>Node2D<>::
+SceneChanger2.gd::GDScript::-1::1733903456::0::1::::<>Area2D<>::
+SceneChanger3.gd::GDScript::-1::1733903535::0::1::::<>Area2D<>::

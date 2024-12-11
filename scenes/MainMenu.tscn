@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://clnyyd7mgke5g"]
+
+[ext_resource type="Texture2D" uid="uid://bwgh3m11mj5is" path="res://assents/tileMap/backGround.jpg" id="1_gi58g"]
+[ext_resource type="Script" path="res://scripts/btn_play.gd" id="2_lxgad"]
+[ext_resource type="Script" path="res://scripts/by_profile.gd" id="3_cv2ct"]
+[ext_resource type="Script" path="res://scripts/btn_quit.gd" id="3_heox0"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(-77, -1)
+
+[node name="BackGround" type="Sprite2D" parent="."]
+position = Vector2(77, 7)
+scale = Vector2(0.6, 0.603704)
+texture = ExtResource("1_gi58g")
+
+[node name="btnPlay" type="Button" parent="."]
+offset_left = -37.0
+offset_top = -99.0
+offset_right = 190.0
+offset_bottom = -22.0
+theme_override_font_sizes/font_size = 50
+text = "PLAY"
+script = ExtResource("2_lxgad")
+chuyenScene = "res://scenes/playGame.tscn"
+
+[node name="btnQuit" type="Button" parent="."]
+offset_left = -40.0
+offset_top = 24.0
+offset_right = 188.0
+offset_bottom = 129.0
+theme_override_font_sizes/font_size = 50
+text = "QUIT"
+script = ExtResource("3_heox0")
+
+[node name="byProfile" type="Button" parent="."]
+offset_left = 463.0
+offset_top = 285.0
+offset_right = 629.0
+offset_bottom = 316.0
+text = "longnhx1"
+script = ExtResource("3_cv2ct")
+nhapLink = "https://github.com/longnhx1"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(71, 9)
+
+[connection signal="pressed" from="btnPlay" to="btnPlay" method="_on_pressed"]
+[connection signal="pressed" from="btnQuit" to="btnQuit" method="_on_pressed"]
+[connection signal="pressed" from="byProfile" to="byProfile" method="_on_pressed"]
